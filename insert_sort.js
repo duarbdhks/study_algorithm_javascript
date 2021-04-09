@@ -5,10 +5,9 @@
 Good Choice
  */
 let array = [1, 10, 5, 8, 7, 6, 4, 3, 2, 9]
-let j;
 
 for (let i = 0; i < array.length; i++) {
-    j = i;
+    let j = i;
     while (array[j] > array[j + 1]) {
         temp = array[j]
         array[j] = array[j + 1]
