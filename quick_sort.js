@@ -11,12 +11,14 @@ const partition = (array, left, right) => {
     //엇갈릴 때까지 반복
     while (left <= right) {
         //기준 값과 같거나 더 큰 값을 만날때까지
-        while (pivot > array[left]) {
+        while (pivot > array[left]) {    //오름차순
+            // while (pivot < array[left]) {   //내림차순
             left++;
         }
 
         //기준 값보다 작은 값을 만날때까지
-        while (pivot < array[right]) {
+        while (pivot < array[right]) {   //오름차순
+            // while (pivot > array[right]) {  //내림차순
             right--;
         }
 
