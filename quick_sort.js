@@ -2,6 +2,7 @@
 퀵 정렬
 - 시간복잡도: O(N * logN)
 - 비고: 가장 빠른 정렬.
+- 자바스크립트의 sort 함수가 퀵정렬로 되어있음.
 */
 let list = [1, 10, 5, 8, 7, 6, 4, 3, 2, 9]
 
@@ -56,42 +57,7 @@ console.log(
     quickSort(list, 0, list.length - 1)
 )
 
+/* 혹은 */
 
-// const quickSort = (data, start, end) => {
-//     //원소가 1개인 경우
-//     if (start >= end) return;
-//
-//     let pivot = start;    //키는 첫번째 원소, 중심축
-//     let left = start + 1;
-//     let right = end;
-//     let temp;
-//
-//     while (left <= right) {    //엇갈릴 때까지 반복
-//         //키 값보다 큰 값을 만날 때까지
-//         while (data[left] <= data[pivot]) {
-//             left++;
-//         }
-//
-//         //키 값보다 작은 값을 만날 때까지
-//         while (data[right] >= data[pivot] && right > start) {
-//             right--;
-//         }
-//
-//         if (left > right) {   //엇갈린 상태라면 데이터 교체
-//             temp = data[right]
-//             data[right] = data[pivot]
-//             data[pivot] = temp
-//         } else {
-//             temp = data[right]
-//             data[left] = data[right]
-//             data[right] = temp;
-//         }
-//     }
-//
-//     quickSort(data, start, right - 1)
-//     quickSort(data, left + 1, end)
-// }
-//
-//
-// quickSort(array, 0, array.length - 1)
-// console.log(array)
+// list.sort((a, b) => a - b)
+// console.log(list)

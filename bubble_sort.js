@@ -6,7 +6,6 @@
 */
 let temp;
 let array = [1, 10, 5, 8, 7, 6, 4, 3, 2, 9]
-// const result = array.sort((a, b) => a - b)
 for (let i = 0; i < array.length; i++) {
     for (let j = 0; j < array.length - 1; j++) {
         if (array[j] > array[j + 1]) {
