@@ -4,9 +4,7 @@
 
 ## 1. 정렬
 
-```text
 힙 정렬(heap_sort) = 병합 정렬(merge_sort) >= 퀵 정렬(quick_sort) > 삽입 정렬(insert_sort) > 선택 정렬(selection_sort) > 버블 정렬(bubble_sort)
-```
 
 ### 1.1 힙 정렬
 
