@@ -13,3 +13,8 @@ stack.push(6)
 stack.pop()
 
 console.log(stack)
+while (stack.length !== 0) {
+    console.log(stack[stack.length - 1])
+    stack.pop()
+}
+
