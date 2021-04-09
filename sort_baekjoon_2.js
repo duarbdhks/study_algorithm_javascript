@@ -12,7 +12,6 @@ https://www.acmicpc.net/problem/2752
 이 숫자는 모두 다르다.
  */
 
-//N: 수의 갯수
 let array = [3, 1, 2];
 
 function solution(array) {
