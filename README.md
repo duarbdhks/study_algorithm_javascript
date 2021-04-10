@@ -2,7 +2,7 @@
 
 코딩 면접관련 **자료구조와 알고리즘**을 자바스크립트 소스코드 예제로 작성하구성하여 공부함.
 
-[동빈나님의 유트브 영상](https://www.youtube.com/watch?v=qQ5iLNjpxSk&list=PLRx0vPvlEmdDHxCvAQS1_6XV4deOwfVrz&index=2){:target="_blank"} (실전 알고리즘 강좌)를 참조하여 학습하였습니다.
+[동빈나님의 유트브 영상](https://www.youtube.com/watch?v=qQ5iLNjpxSk&list=PLRx0vPvlEmdDHxCvAQS1_6XV4deOwfVrz&index=2) (실전 알고리즘 강좌)를 참조하여 학습하였습니다.
 
 ## 1. 정렬
 
