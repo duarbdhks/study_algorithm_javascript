@@ -12,7 +12,7 @@ class BFS extends Graph {
         super();
     }
 
-    getBFS(startVertex) {
+    bfs(startVertex) {
         let queue = []; //큐
         let visited = {};   //방문 처리
         let result = new Set();
@@ -64,5 +64,5 @@ graph.addEdge(3, 7)
 //6과 7을 연결
 graph.addEdge(6, 7)
 
-const bfsResult = graph.getBFS(1)
+const bfsResult = graph.bfs(1)
 console.log(bfsResult)
