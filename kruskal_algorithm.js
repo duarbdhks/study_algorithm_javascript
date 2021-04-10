@@ -11,21 +11,6 @@
     간선 갯수 = 노드 갯수 - 1
  */
 
-// import Graph from "./Graph";
-//
-// class Kruskal extends Graph {
-//     constructor() {
-//         super();
-//     }
-// }
-//
-// const vertexList = [1, 2, 3, 4, 5, 6, 7];
-// const graph = new Kruskal();
-// for (const v of vertexList) {
-//     graph.addVertex(v)
-// }
-
-
 //부모 노드 찾기
 function getParent(parent, x) {
     if (parent[x] === x) return x;
