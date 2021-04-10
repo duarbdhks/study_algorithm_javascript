@@ -1,13 +1,16 @@
 {
   "presets": [
-    "@babel/preset-env"
-  ],
-  "plugins": [
     [
-      "@babel/plugin-proposal-private-methods",
+      "@babel/preset-env",
       {
-        "loose": true
+        "loose": true,
+        "shippedProposals": true
       }
     ]
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-syntax-class-properties",
+    "@babel/plugin-proposal-private-methods"
   ]
 }
