@@ -24,7 +24,7 @@ let nodes = [
 ]
 let distances = {}   //최단 거리
 
-let visited = new Array(nodeCnt).fill(false)    //방문한 노드
+const visited = new Array(nodeCnt).fill(false)    //방문한 노드
 const dist = new Array(nodeCnt).fill(Number.MAX_SAFE_INTEGER);    //최단 거리
 const pq = new PriorityQueue(dist)
 
