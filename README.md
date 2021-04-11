@@ -2,7 +2,8 @@
 
 코딩 면접관련 **자료구조와 알고리즘**을 자바스크립트 소스코드 예제로 작성하구성하여 공부함.
 
-[동빈나님의 유트브 영상](https://www.youtube.com/watch?v=qQ5iLNjpxSk&list=PLRx0vPvlEmdDHxCvAQS1_6XV4deOwfVrz&index=2) (실전 알고리즘 강좌)를 참조하여 학습하였습니다.
+[동빈나님의 유트브 영상](https://www.youtube.com/watch?v=qQ5iLNjpxSk&list=PLRx0vPvlEmdDHxCvAQS1_6XV4deOwfVrz&index=2) (실전 알고리즘 강좌)
+를 참조하여 학습하였습니다.
 
 ## 1. 정렬
 
@@ -72,3 +73,39 @@
   간선 갯수 = 노드 갯수 - 1
 
 ![](images/kruskal_alogorithm.png)
+
+## 4. 이진트리
+
+![](images/binary_tree.png)
+
+이진트리에서 데이터를 탐색하는 방법은 세가지.
+![](images/binary_tree_traversal.png)
+
+### 4.1 전위 순회(Preorder Traversal)
+
+순서: 1-2-4-8-9-5-10-11-3-6-12-13-7-14-15
+
+1. 자기 자신 처리
+2. 왼쪽 자식 처리
+3. 오른쪽 자식 처리
+
+### 4.2 중위 순회(Inorder Traversal)
+
+순서: 
+
+1. 왼쪽 자식 처리
+2. 자기 자신 처리
+3. 오른쪽 자식 처리
+
+### 4.3 후위 순회(Postorder Traversal)
+
+※ 수식에 대해 컴퓨터(계산기)가 처리하는 방식
+
+순서:
+
+1. 왼쪽 자식 처리
+2. 오른쪽 자식 처리
+3. 자기 자신 처리
+
+
+
